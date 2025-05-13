@@ -1,9 +1,12 @@
 import React from 'react';
+import Carousel from '../Components/Carousel';
+import TabCategories from '../Components/TabCategories';
 
 const Home = () => {
     return (
         <div>
-            
+            <Carousel></Carousel>
+            <TabCategories></TabCategories>
         </div>
     );
 };
